@@ -16,30 +16,35 @@ body {
 }
 
 .container {
-    /* background-image: url('images/bg.png'); */
+    background-image: url('images/bg.png');
+    background-size: cover;
     width: 100%;
     border-radius: 28px; 
     position: relative;
-    background-color: #fff;
     padding: 25px;
     max-width: 380px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header,
+.logo  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo img {
     width: 48px;
+    /* margin-right: 10px; */
+    margin-left: -130px;
 }
 
-.header .chip {
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff
+}
+
+header .chip {
     width: 60px;
-}
-
-.header  {
-    /* background-image: url('images/bg.png'); */
-    /* width: 500px;
-    border-radius: 30px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: 0 auto;
-    position: relative; */
 }
