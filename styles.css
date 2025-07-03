@@ -44,14 +44,24 @@ h5 {
     color:#fff
 }
 
+h5.number {
+    margin-top: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name {
+    margin-top: 20px;
+}
+
 h6 {
     color: #fff;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
 }
 
 header .chip {
-    width: 60px;
+    width: 50px;
 }
 
 .container .card-details {
