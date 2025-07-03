@@ -11,16 +11,16 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-items: center;
-    background-color: #dcf5f7;
+    justify-content: center;
+    background: #dcf5f7;
 }
 
 .container {
-    background-image: url('images/bg.png');
+    position: relative;
+    background-image: url("images/bg.png");
     background-size: cover;
     width: 100%;
     border-radius: 28px; 
-    position: relative;
     padding: 25px;
     max-width: 380px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -30,13 +30,12 @@ header,
 .logo  {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo img {
     width: 48px;
-    /* margin-right: 10px; */
-    margin-left: -130px;
+    margin-right: 10px;
 }
 
 h5 {
@@ -45,6 +44,19 @@ h5 {
     color:#fff
 }
 
+h6 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 header .chip {
     width: 60px;
+}
+
+.container .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
 }
